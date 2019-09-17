@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=isHuman
+comment0.target=Attacker(boolean)
+comment0.text=\n\ Constructs\ and\ determines\ if\ the\ Fighter\ is\ Alien\ or\ Human.\ If\ Alien,\ spawn\ from\ the\ left\ and\ move\ towards\ the\ \n\ positive\ x-axis.\ If\ Human,\ spawn\ from\ the\ right\ and\ move\ towards\ the\ negative\ x-axis.\n\ \n\ @param\ isHuman\ \ \ true\ \=\ human,\ false\ \=\ alien\n
+comment1.params=change\ isHuman
+comment1.target=void\ changeWeaponFrequency(int,\ boolean)
+comment1.text=\n\ Changes\ the\ weapon\ frequency\ on\ either\ team.\n\ \n\ @param\ change\ \ \ \ difference\ in\ weapon\ frequency\n\ @param\ isHuman\ \ \ true\ if\ human,\ otherwise\ false;\ determines\ which\ team's\ weapon\ frequency\ will\ change\n
+comment2.params=
+comment2.target=void\ shoot()
+comment2.text=\n\ Attacker\ spawns\ laser\ (depending\ on\ if\ they\ are\ alien\ or\ human).\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act\ -\ do\ whatever\ the\ Attacker\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment4.params=
+comment4.target=void\ targetClosestPlanet()
+comment4.text=\n\ Finds\ the\ nearest\ Heal\ Planet\ available\ when\ its\ health\ is\ low.\n
+comment5.params=
+comment5.target=void\ moveTowards()
+comment5.text=\n\ Allows\ Attackers\ to\ move\ towards\ the\ closest\ healing\ planet.\ If\ the\ \n\ Attacker\ reaches\ the\ healing\ planet,\ stop\ for\ 5\ intervals,\ \n\ then\ continue\ moving.\n
+comment6.params=
+comment6.target=void\ recharge()
+comment6.text=\n\ Attacker\ will\ recharge\ to\ full\ health\ while\ it\ is\ on\ the\ heal\ planet.\n
+numComments=7

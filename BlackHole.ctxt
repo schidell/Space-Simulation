@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BlackHole()
+comment0.text=\n\ Constructs\ a\ black\ hole\ of\ random\ size\ and\ speed.\n
+comment1.params=
+comment1.target=void\ hit()
+comment2.params=c
+comment2.target=boolean\ touching(java.lang.Class)
+comment2.text=\n\ Checks\ if\ an\ object\ from\ another\ class\ is\ touching\ the\ object.\n\ \n\ @param\ c\ \ \ \ \ \ \ \ \ class\ that\ object\ should\ check\ to\ be\ touching\n\ @return\ boolean\ \ true\ if\ an\ object\ of\ class\ c\ is\ touching\ it,\ otherwise\ false\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act\ -\ do\ whatever\ the\ Blackhole\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment4.params=
+comment4.target=void\ fixImage()
+comment5.params=
+comment5.target=void\ shrink()
+numComments=6

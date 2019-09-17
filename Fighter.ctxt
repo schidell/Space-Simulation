@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=isHuman
+comment0.target=Fighter(boolean)
+comment0.text=\n\ Constructs\ a\ fighter\ that\ will\ move\ through\ the\ world.\ \n\ \n\ @param\ isHuman\ \ \ true\ if\ fighter\ is\ human,\ false\ if\ fighter\ is\ alien\n
+comment1.params=
+comment1.target=boolean\ getTeam()
+comment1.text=\n\ Find\ if\ fighter\ is\ on\ human\ or\ alien\ team.\n\ \n\ @return\ boolean\ true\ if\ human\ team,\ false\ for\ alien\n
+comment2.params=
+comment2.target=void\ targetClosestPlanet()
+comment2.text=\n\ Finds\ the\ closest\ planet\ fighter\ is\ aiming\ to\ reach.\n
+comment3.params=
+comment3.target=void\ moveTowards()
+comment3.text=\n\ Moves\ to\ the\ planet\ is\ targetting.\n
+comment4.params=
+comment4.target=void\ saveMyWidth()
+comment4.text=\n\ Initializes\ value\ of\ myWidth.\n
+comment5.params=healthDecrease
+comment5.target=void\ takeDamage(int)
+comment5.text=\n\ When\ hit\ by\ another\ Fighter,\ take\ the\ value\ of\ damage\ and\ subtract\ it\ from\ the\ Fighter's\ health.\n\ If\ Fighter's\ health\ reaches\ zero,\ remove\ the\ Fighter\ from\ the\ world.\n\ \n\ @param\ healthDecrease\ \ \ \ takes\ in\ the\ value\ of\ the\ damage\ done\ by\ the\ weapon\n\ \n
+comment6.params=
+comment6.target=boolean\ isOnHealPlanet()
+comment6.text=\n\ Checks\ if\ fighter\ is\ on\ heal\ planet.\n\ \n\ @return\ boolean\ true\ if\ fighter\ is\ on\ heal\ planet,\ otherwise\ false\n
+comment7.params=
+comment7.target=boolean\ atWorldEdge()
+comment7.text=\n\ Handy\ method\ that\ checks\ if\ this\ object\ is\ at\ the\ edge\n\ of\ the\ World\n\ \n\ @return\ boolean\ \ true\ if\ at\ or\ past\ the\ edge\ of\ the\ World,\ otherwise\ false\n
+numComments=8

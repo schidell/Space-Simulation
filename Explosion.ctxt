@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=maxSize
+comment0.target=Explosion(int)
+comment0.text=\n\ Constructor\ for\ Explosion.\ MaxSize\ is\ the\ radius.\n\ \n\ @param\ maxSize\ \ \ The\ maximum\ size\ to\ which\ the\ explosion\ should\ grow.\ Larger\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sizes\ will\ not\ affect\ the\ speed\ at\ which\ the\ explosion\ grows\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ eventually\ disappears.\n
+comment1.params=maxSize\ huge
+comment1.target=Explosion(int,\ boolean)
+comment1.text=\n\ Calling\ this\ method\ will\ make\ an\ explosion\ with\ lots\ of\ mini\ explosions\n\ inside\ it.\ This\ can\ be\ taxing\ on\ performance\ and\ should\ be\ used\ sparingly.\n\ \n\ @param\ maxSize\ The\ size\ of\ the\ main\ explosion\n\ @param\ huge\ Value\ doesn't\ matter\ -\ just\ signals\ to\ use\ BIG\ explosion\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ method\ gets\ called\ by\ Greenfoot\ every\ frame.\ In\ this\ class,\ this\ method\n\ will\ serve\ to\ increase\ the\ size\ each\ act\ until\ maxSize\ is\ reached,\ at\ which\n\ point\ the\ object\ will\ remove\ itself\ from\ existence.\n
+comment3.params=
+comment3.target=void\ redraw()
+comment3.text=\n\ redraw()\ method\ is\ a\ private\ method\ called\ by\ this\ object\ each\ act\n\ in\ order\ to\ redraw\ the\ graphic.\n
+numComments=4

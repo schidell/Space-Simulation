@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Comet()
+comment0.text=\n\ Creates\ a\ comet\ with\ a\ random\ speed\ and\ random\ size.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Comet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=void\ checkHitFighter()
+comment2.text=\n\ Removes\ the\ fighter\ if\ the\ comet\ hits\ it.\n
+comment3.params=
+comment3.target=void\ checkHitPlanet()
+comment3.text=\n\ Wipes\ the\ planet\ population\ and\ explodes\ if\ the\ comet\ hits\ it.\n
+comment4.params=
+comment4.target=boolean\ atWorldEdge()
+comment4.text=\n\ Handy\ method\ that\ checks\ if\ this\ object\ is\ at\ the\ edge\n\ of\ the\ World\n\ \n\ @return\ boolean\ \ true\ if\ at\ or\ past\ the\ edge\ of\ the\ World,\ otherwise\ false\n
+numComments=5
