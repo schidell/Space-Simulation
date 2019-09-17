@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Scorebar()
+comment0.text=\n\ Creates\ a\ scorebar\ of\ width\ 960\ and\ height\ 65.\ The\ bar\ is\ gray,\ and\ the\ font\ is\ white.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Scorebar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\n\ Updates\ variables\ in\ scorebar.\n
+comment3.params=
+comment3.target=void\ planetNames()
+comment3.text=\n\ Updates\ the\ name\ of\ all\ the\ planets.\n
+comment4.params=
+comment4.target=void\ updateAlienPop()
+comment4.text=\n\ Updates\ the\ alien\ popultion\ of\ all\ the\ planets.\n
+comment5.params=
+comment5.target=void\ updateHumanPop()
+comment5.text=\n\ Updates\ the\ human\ population\ of\ all\ the\ planets.\n
+comment6.params=
+comment6.target=void\ findPlanets()
+comment6.text=\n\ Finds\ all\ the\ planets\ and\ orders\ the\ planets\ 1\ to\ 5\ according\ to\ their\ location\ away\ from\ the\ score\ bar.\n
+numComments=7

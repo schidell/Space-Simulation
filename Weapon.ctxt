@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=isHumanWeapon
+comment0.target=Weapon(boolean)
+comment0.text=\n\ Constructs\ weapons\ and\ gives\ certain\ lasers\ to\ its'\ respective\ Attackers.\n\ \n\ @param\ isHumanWeapon\ \ \ \ \ determines\ if\ the\ Attacker\ is\ Alien\ or\ Human\n\ \n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Weapon\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=boolean\ atWorldEdge()
+comment2.text=\n\ Determines\ if\ the\ Weapon\ is\ at\ the\ edge\ of\ the\ world.\ If\ so,\n\ remove\ the\ weapon.\n
+numComments=3
