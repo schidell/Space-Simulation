@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=isHuman
+comment0.target=Invader(boolean)
+comment0.text=\n\ Constructs\ an\ Invader\ and\ determines\ if\ the\ Invader\ is\ Human\ or\ Alien.\ \n\ If\ Human,\ change\ the\ image\ and\ move\ to\ the\ left.\ \n\ If\ Alien,\ move\ to\ the\ right.\n\ \n\ @param\ isHuman\ \ \ determines\ if\ the\ Invader\ is\ an\ Alien\ or\ Human\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Invader\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=state
+comment2.target=boolean\ sameTeamCheck(char)
+comment2.text=\n\ Checks\ if\ given\ state\ of\ planet\ is\ on\ same\ team\ as\ invader.\n\ \n\ @return\ boolean\ true\ if\ state\ is\ same\ as\ planet's\ team,\ otherwise\ false\n
+comment3.params=
+comment3.target=void\ targetClosestPlanet()
+comment3.text=\n\ Will\ find\ planet\ closest\ to\ it\ in\ the\ world\ that\ they\ are\ looking\ for.\n
+comment4.params=
+comment4.target=void\ moveTowards()
+comment4.text=\n\ Allows\ Invaders\ to\ move\ towards\ the\ closest\ planet.\ If\ Invader\ touches\ a\ planet,\n\ remove\ the\ Invader\ and\ tell\ the\ Planet\ class\ that\ either\ an\ Alien\ or\ Human\ has\ \n\ removed\ at\ the\ planet\ to\ keep\ track\ of\ the\ population\ score.\n
+comment5.params=
+comment5.target=void\ moveRandomly()
+comment5.text=\n\ A\ method\ to\ be\ used\ for\ moving\ randomly\ if\ there\ are\ no\ more\ neutral\ planets.\ Will\ mostly\ just\ move\ in\ its\ current\ direction,\ \n\ occasionally\ turning\ to\ face\ a\ new,\ random\ direction.\n
+numComments=6

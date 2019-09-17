@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=size\ state
+comment0.target=Planet(int,\ char)
+comment0.text=\n\ Constructs\ a\ planet\ with\ specified\ size\ and\ state.\n\ \n\ @param\ size\ \ size\ of\ planet;\ must\ be\ greater\ than\ 0,\ ideally\ below\ 60\n\ @param\ state\ state\ of\ planet\ (b\:\ alien\ conquered,\ g\:\ neutral,\ l\:\ alien\ healing,\ p\:\ human\ healing,\ r\:\ human\ conquered)\n
+comment1.params=isHuman
+comment1.target=void\ hitByFighter(boolean)
+comment1.text=\n\ If\ fighter\ hits\ planet\ successfully,\ fighter\ should\ call\ this\ method\ to\ update\ Planet's\ statistics.\n
+comment2.params=
+comment2.target=void\ wipePopulation()
+comment2.text=\n\ Population\ of\ planet\ is\ wiped\ and\ reset.\n
+comment3.params=
+comment3.target=char\ getState()
+comment3.text=\n\ Gets\ state\ of\ planet\:\ whether\ it\ is\ conquered,\ neutral,\ or\ a\ healing\ planet.\n\ A\ neutral\ planet\ is\ denoted\ with\ 'g';\ alien\ conquered\ is\ 'p',\ human\ conquered\ is\ 'b',\ and\ healing\ is\ 'r'.\n
+comment4.params=
+comment4.target=void\ rotate()
+comment4.text=\n\ Images\ update\ to\ appear\ to\ rotate.\n
+comment5.params=
+comment5.target=void\ loadImages()
+comment5.text=\n\ Load\ images\ into\ image\ arrays.\n
+comment6.params=
+comment6.target=void\ setInitialImage()
+comment6.text=\n\ Sets\ initial\ image.\n
+numComments=7
